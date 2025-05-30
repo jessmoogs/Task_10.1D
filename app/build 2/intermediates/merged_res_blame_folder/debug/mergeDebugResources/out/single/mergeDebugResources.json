@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/drawable_interest_toggle_background.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/drawable/interest_toggle_background.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/xml_network_security_config.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_results.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_quiz_item_card.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/quiz_item_card.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-pngs-32:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_signup.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/drawable_loading_background.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/drawable/loading_background.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/drawable_progress_background.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/drawable/progress_background.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_interests.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_interests.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/layout_activity_task.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/layout/activity_task.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.personalisedlearningexperienceapp-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.personalisedlearningexperienceapp-main-38:/mipmap-mdpi/ic_launcher.webp"
+    }
+]

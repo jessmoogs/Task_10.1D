@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Replay Button (Top-Right Circle) -->
+        <ImageButton
+            android:id="@+id/btnReplay"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_replay"
+            android:background="@drawable/circle_white"
+            android:scaleType="centerInside"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone"
+            android:contentDescription="Replay"
+            android:padding="6dp" />
+
+        <!-- Task Title -->
+        <TextView
+            android:id="@+id/textTaskTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✨ Task"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_toStartOf="@id/btnReplay"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Task Description -->
+        <TextView
+            android:id="@+id/textTaskDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test your knowledge!"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/textTaskTitle"
+            android:layout_marginTop="4dp" />
+
+        <!-- Start/Completed Button -->
+        <Button
+            android:id="@+id/btnStartTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Task"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:layout_below="@id/textTaskDesc"
+            android:layout_marginTop="12dp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

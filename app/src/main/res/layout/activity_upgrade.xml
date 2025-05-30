@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@android:color/holo_green_light"
+            android:contentDescription="Back"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upgrade your \nexperience"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Current Plan Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/currentPlanText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:text="You are currently on the Free plan."
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <!-- Starter Tier -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Starter"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$4.99"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Improved Quiz generation"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/starterPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/starterActivatedLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ Activated"
+                android:gravity="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+        <!-- Intermediate Tier -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Intermediate"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <!-- Best Seller Badge -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Seller!"
+                    android:padding="4dp"
+                    android:background="@drawable/rounded_badge"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$9.99"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Improved Quiz generation"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/intermediatePurchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/intermediateActivatedLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ Activated"
+                android:gravity="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <!-- Advanced Tier -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_card"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advanced"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$14.99"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Improved Quiz generation"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/advancedPurchase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Purchase"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="@android:color/holo_green_light" />
+
+            <TextView
+                android:id="@+id/advancedActivatedLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✅ Activated"
+                android:gravity="center"
+                android:textColor="@android:color/holo_green_light"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/revertToFreePlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back to Free Plan"
+            android:textColor="#3F51B5"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="12dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+</ScrollView>
